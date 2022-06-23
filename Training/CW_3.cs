@@ -93,7 +93,7 @@ namespace Training
 				id== student.id &&
 				name==student.name &&
 				per==student.per;
-				
+            Console.WriteLine(	"");
         }
 		
 
