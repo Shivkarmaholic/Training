@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Training.HW_2_12_CustomException</StartupObject>
+    <StartupObject>Training.CW_3_2</StartupObject>
   </PropertyGroup>
 
 </Project>

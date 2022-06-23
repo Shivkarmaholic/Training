@@ -31,9 +31,10 @@ namespace Training
         static void Main(string[] args)
         {
             Sphere s1 = new Sphere();
-            s1.volume(2.125);
-            s1.volume(21.22, 31.2114);
-            s1.volume(2.3, 4.1, 9.5);
+
+            Console.WriteLine("Sphere    : "+ s1.volume(2.125)); 
+            Console.WriteLine("Cylinder  : "+ s1.volume(21.22, 31.2114)) ;
+            Console.WriteLine("Cuboid    : "+ s1.volume(2.3, 4.1, 9.5)); 
         }
     }
 }
