@@ -6,30 +6,43 @@ using System.Threading.Tasks;
 
 namespace Training
 {
- 
-    class Square
+    interface IShape
     {
-        public int length;
+        public double area(double x);
+    }
+ 
+    class Square:IShape
+    {
+        public double length;
 
-    public Square(int length)
+        public Square(double length)
         {
         this.length = length;
         }
+        public double area(double length)
+        {
+            return Math.Pow(length, 2);
+        }
     }
 
-    class Circle
+    class Circle:IShape
     {
-        public int radius;
+        public double radius;
         public Circle(int radius)
         {
             this.radius = radius;
         }
+        public double area(double radius)
+        {
+            return 3.14 * Math.Pow(radius, 2);
+        }
+
     }
 
 
     class AreaCalculator
     {
-        public ArrayList shapes = new ArrayList() { new Circle(6), new Square(5) };
+        public ArrayList shapes;
         
         public AreaCalculator(ArrayList shapes)
         {
@@ -41,16 +54,18 @@ namespace Training
         {
 
             double area=0.00;
-            foreach (object shape in shapes) 
+            foreach (dynamic shape in shapes) 
             {
                 object obj = shape;
-                if (typeof(Circle)== shape.GetType()) 
+                //Console.WriteLine(obj.GetType());
+                if(shape is IShape)
                 {
-                    Console.WriteLine(shape.GetType());
-                area = Math.Pow(3, 2);
-                    Console.WriteLine("Circle Obj");
+                    Console.WriteLine(shape.area());
                 }
                 
+                
+
+
 
             }
 
@@ -59,13 +74,11 @@ namespace Training
     
         static void Main(string[] args)
         {
-            ArrayList shapes = new ArrayList() { new Circle(6), new Square(5) };
+            ArrayList shapes = new ArrayList() { new Circle(10), new Square(10) };
             AreaCalculator a1 = new AreaCalculator(shapes);
-            a1.sum();
+            Console.WriteLine("Area of all Shapes = "+ a1.sum());
 
-            Console.WriteLine(typeof(Circle));
-            Console.WriteLine(typeof(Square));
-            Console.WriteLine(typeof(AreaCalculator));
+           
         }
     }
 }
