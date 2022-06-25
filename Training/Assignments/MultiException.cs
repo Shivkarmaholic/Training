@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Training
 {
-    class HW_2_11_MultiException
+    class MultiException
     {
         static void Main(string[] args)
         {

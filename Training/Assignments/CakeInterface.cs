@@ -26,7 +26,7 @@ namespace Training
         }
     }
 
-    class HW_2_4_CakeInterface
+    class CakeInterface
     {
         static void Main(string[] args)
         {

@@ -27,7 +27,7 @@ namespace Training
             Console.WriteLine("Am Drinking Mastani");
         }
     }
-    class HW_2_5_IcecreamInterface
+    class IcecreamInterface
     {
         static void Main(string[] args)
         {

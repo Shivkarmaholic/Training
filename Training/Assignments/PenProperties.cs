@@ -27,7 +27,7 @@ namespace Training
         public int PenCapLength { get; set; }
         public string PenBrand { get; set; }
     }
-    class HW_2_2_PenProperties
+    class PenProperties
     {
         static void Main(string[] args)
         {

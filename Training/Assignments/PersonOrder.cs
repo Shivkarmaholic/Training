@@ -68,7 +68,7 @@ namespace Training
 
 
 
-    class HW_2_7_PersonOrder
+    class PersonOrder
     {
         static void Main(string[] args)
         {

@@ -24,7 +24,7 @@ namespace Training
         }
     }
 
-    class HW_2_9_MethodOverLoading
+    class MethodOverLoading
     {
         
         static void Main(string[] args)

@@ -27,7 +27,7 @@ namespace Training
             Console.WriteLine("I am in Parameterised Constructor");
         }
     }
-    class HW_2_8_AccountBank
+    class AccountBank
     {
         static void Main(string[] args)
         {

@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Training.Basic.B_1_DemoFor</StartupObject>
+    <StartupObject>Training.Basic.CountCoPrime</StartupObject>
   </PropertyGroup>
 
 </Project>

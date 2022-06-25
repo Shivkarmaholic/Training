@@ -25,7 +25,7 @@ namespace Training
         }
         
     }
-    class HW_2_6_SphereOverloading
+    class SphereOverloading
     {
 
         static void Main(string[] args)

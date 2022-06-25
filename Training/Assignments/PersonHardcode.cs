@@ -42,7 +42,7 @@ namespace Training
                 );
         }
     }
-    class HW_2_3_PersonHardcode
+    class PersonHardcode
     {
         static void Main(string[] args)
         {

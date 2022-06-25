@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Training
 {
-    class HW_2_10_OutOfRangeException
+    class OutOfRangeException
     {
         static void Main(string[] args)
         {

@@ -74,7 +74,7 @@ namespace Training
                 );
         }
     }
-    class HW_2_1_RuntimePolymorphism
+    class RuntimePolymorphism
     {
 
         static void Main(string[] args)

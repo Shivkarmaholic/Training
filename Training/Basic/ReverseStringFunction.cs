@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Training.Basic
 {
-    class B_1_DemoFor
+    class ReverseStringFunction
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Basics: ");
+            string str = Console.ReadLine();
+            char[] charArray = str.ToCharArray();
+            Array.Reverse(charArray);
+            Console.WriteLine(new string(charArray));
         }
     }
 }

@@ -17,7 +17,7 @@ namespace Training
             Console.WriteLine("Exception Generated. ");
         }
     }
-    class HW_2_12_CustomException
+    class CustomException
     {
         static void Main(string[] args)
         {
