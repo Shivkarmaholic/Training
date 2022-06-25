@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Training.DemoLinkedList</StartupObject>
+    <StartupObject>Training.Basic.B_1_DemoFor</StartupObject>
   </PropertyGroup>
 
 </Project>
