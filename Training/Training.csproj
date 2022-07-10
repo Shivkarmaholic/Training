@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Training.Self.CW_5</StartupObject>
+    <StartupObject>Training.Basic.DecimalToBinary</StartupObject>
   </PropertyGroup>
 
 </Project>
